@@ -9,7 +9,7 @@ cd directcall/
 
 dos2unix call_directcall.sh ; dos2unix send_sms_directcall.sh
 
-call_directcall.sh ; chmod 777 send_sms_directcall.sh
+chmod 777 call_directcall.sh ; chmod 777 send_sms_directcall.sh
 
 cp call_directcall.sh /usr/lib/zabbix/alertscripts ;  cp send_sms_directcall.sh  /usr/lib/zabbix/alertscripts
 
